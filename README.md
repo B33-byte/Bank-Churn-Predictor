@@ -17,13 +17,14 @@ It provides an interactive form where users enter customer profile details, and 
 
 - main.py: Streamlit application entry point
 
-## Requirements
+## 🛠️ Tech Stack
 
-- Python 3.9+
-- streamlit
-- pandas
-- numpy
-- plotly
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Plotly
+- Scikit-learn 
 
 ## Installation
 
@@ -44,10 +45,24 @@ streamlit run main.py
 
 Then open the local URL shown in the terminal (usually http://localhost:8501).
 
+## ✨ Features
+
+- Interactive Streamlit UI for customer data input  
+- Real-time churn prediction with probability score  
+- Visual gauge chart for easy interpretation  
+- Automatic preprocessing (encoding & scaling)  
+- Handles missing/unseen data robustly  
+- Supports trained model integration via session state  
+- Demo fallback mode for quick testing  
+
 ## Notes For Model Integration
 
 - To use a real trained model, load it into Streamlit session state as churn_model before running predictions.
 - The current app is intentionally self-contained and includes a demo fallback score for quick testing.
+
+  ## 📌 Use Case
+
+This project can help banks identify customers at risk of leaving and take preventive actions such as targeted offers or engagement strategies.
 
 ## Future Improvements
 
