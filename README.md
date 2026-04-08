@@ -1,5 +1,7 @@
 # Bank Churn Predictor
 
+![Bank Churn Predictor App](demo.png)
+
 This project is a Streamlit web app for customer churn prediction.
 
 It provides an interactive form where users enter customer profile details, and the app returns churn risk as a percentage with a visual gauge.
